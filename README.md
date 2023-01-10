@@ -1,4 +1,6 @@
-# Data Analysis
+# Apache Beam pipeline - Transforms
+
+This is a repository with apache beam pipelines with GCP I/O connector.
 
 ## Development Environment
 
@@ -28,7 +30,7 @@ $ pip install -r requirements.txt
 
 ```
 # Task1 Python Command
-$ python3 src/pipeline.py --input-file gs://cloud-samples-data/bigquery/sample-transactions/transactions.csv -o ./output/results.json
+$ python3 src/pipeline1.py --input-file gs://cloud-samples-data/bigquery/sample-transactions/transactions.csv -o ./output/results.json
 
 # Task2 Python Command
 $ python3 src/pipeline2.py --input-file gs://cloud-samples-data/bigquery/sample-transactions/transactions.csv -o ./output/results.json
