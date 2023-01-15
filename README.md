@@ -18,7 +18,7 @@ $ sudo apt-get install python3-pip
 # Install virtualenv
 $ sudo pip3 install virtualenv
 
-$ cd 2023_virginmedia_interview
+$ cd apachebeam_pipelines
 $ virtualenv venv
 $ source ./venv/bin/activate
 
